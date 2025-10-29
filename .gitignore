@@ -1,0 +1,60 @@
+# ------------------------------
+# OS 임시 파일
+# ------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.Trashes
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ------------------------------
+# IDE / Editor
+# ------------------------------
+# IntelliJ / PyCharm / Android Studio
+.idea/
+*.iml
+out/
+build/
+
+# VS Code
+.vscode/
+
+# ------------------------------
+# Docker / Compose
+# ------------------------------
+.docker/
+*.env
+.env.*
+docker-compose.override.yml
+**/testcontainers.properties
+
+# ------------------------------
+# 로그 / 임시 / 캐시
+# ------------------------------
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+*.rej
+*~
+
+# ------------------------------
+# 시스템 환경 / 사용자 설정
+# ------------------------------
+.zsh_history
+.zsh_sessions/
+.zcompdump*
+.zprofile
+.zshrc
+.bash_history
+.bash_profile
+.config/
+.cache/
