@@ -19,11 +19,26 @@ $RECYCLE.BIN/
 # IntelliJ / PyCharm / Android Studio
 .idea/
 *.iml
+*.ipr
+*.iws
 out/
-build/
+bin/
+.factorypath
+.project
+.classpath
+.settings/
+.springBeans
+.sts4-cache
 
 # VS Code
 .vscode/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
 
 # ------------------------------
 # Docker / Compose
@@ -33,6 +48,19 @@ build/
 .env.*
 docker-compose.override.yml
 **/testcontainers.properties
+
+# ------------------------------
+# Gradle
+# ------------------------------
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+!**/src/main/**/out/
+!**/src/test/**/out/
 
 # ------------------------------
 # 로그 / 임시 / 캐시
@@ -58,3 +86,8 @@ docker-compose.override.yml
 .bash_profile
 .config/
 .cache/
+
+# ------------------------------
+# 기타
+# ------------------------------
+HELP.md
