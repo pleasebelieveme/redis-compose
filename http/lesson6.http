@@ -1,4 +1,5 @@
 @orderId=3f3303ab-3f03-4f48-902e-57bd76b85ac4
+@articleId=1
 
 ### 1. 주문 생성 (POST)
 POST http://localhost:8080/orders
@@ -36,3 +37,7 @@ Content-Type: application/json
 
 ### 5. 주문 삭제 (DELETE)
 DELETE http://localhost:8080/orders/{{orderId}}
+
+
+### 6. 조회수 증가(GET)
+GET http://localhost:8080/articles/{{articleId}}
