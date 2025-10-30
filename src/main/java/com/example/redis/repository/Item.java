@@ -1,10 +1,9 @@
-package com.example.redis;
+package com.example.redis.repository;
 
 import java.io.Serializable;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.redis.core.RedisHash;
-import org.springframework.web.bind.annotation.GetMapping;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
