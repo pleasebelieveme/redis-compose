@@ -25,6 +25,9 @@ repositories {
 }
 
 dependencies {
+    // 레디스 세션
+    implementation 'org.springframework.session:spring-session-data-redis'
+
 	implementation 'org.springframework.boot:spring-boot-starter-data-redis'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	compileOnly 'org.projectlombok:lombok'

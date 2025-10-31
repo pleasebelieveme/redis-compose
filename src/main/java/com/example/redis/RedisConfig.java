@@ -28,4 +28,10 @@ public class RedisConfig {
 		template.setValueSerializer(new GenericToStringSerializer<>(Integer.class)); // 값이 무조건 정수일 때 사용
 		return template;
 	}
+
+	@Bean
+	public RedisSerializer<Object> springSessionDefaultRedisSerializer() {
+		return RedisSerializer.java();
+		// return RedisSerializer.json(); // Security를 사용하면 Context의 생성자가 없어서 에러가 날 수 있다.
+	}
 }
